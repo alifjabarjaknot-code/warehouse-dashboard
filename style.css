@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:#1f4e79;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    width:95%;
+    margin:20px auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#777;
+    margin-bottom:10px;
+}
+
+.card h1{
+    color:#1f4e79;
+}
+
+.chart{
+    margin-top:25px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
